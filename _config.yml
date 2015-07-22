@@ -2,7 +2,8 @@
 menu:
   Home: /
   Archives: /archives
-  tags: /tags
+  Tags: /tags
+  SourceCode: https://github.com/evatlsong/evatlsong.github.io
 rss: /atom.xml
 
 # Content
