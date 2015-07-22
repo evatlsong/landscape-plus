@@ -1,1 +1,9 @@
+<% if (site.tags.length && page.type === 'tags'){ %>
+    <div class="widget-wrap">
+        <div class="widget">
+            <%- list_tags() %>
+        </div>
+    </div>
+<% } else { %>
 <%- partial('_partial/article', {post: page, index: false}) %>
+<% } %>
